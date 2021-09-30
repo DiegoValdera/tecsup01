@@ -1,0 +1,46 @@
+//para mostrar la configuración actual de git
+
+git config --list
+
+//cambiar el nombre
+git config --global user.name "Juan Perez"
+
+//cambiar el email
+git config --global user.email "juan@gmail.com"
+
+//en caso quieran borrar un campo
+git config --global --unset user.mail
+
+//flujo de trabajo con git
+//comenzamos inicializando
+git init
+
+//abrir vs code desde la terminal
+code .
+
+//para ver el estado de mi proyecto con git
+git status
+
+//para añadir al stage
+//. significa todos los archivos
+git add .
+
+//para agregar un commit este tiene que ir con un mensaje
+//necesita el git add . antes
+git commit -m "mensajeee"
+
+//para mostrar los commit que contiene el repositorio
+git log
+
+//para hacer un git add y luego un commit, junto
+//lo puedo hacer después, que haya hecho al menos 01 vez un git add .
+git commit -am "otro mensaje"
+
+//Para ver los cambios de un commit
+git show <token_id_commit>
+
+para salir de VIM
+:q
+
+//Para ver diferencias entre 02 commits
+git diff <token1> <token2>
