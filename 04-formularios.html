@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,16 +10,42 @@
     <h1>Mi primer sitio formulario</h1>
     <img src="" alt="">
 
-    <form action="www.google.com">
+    <form action="" method="POST">
         <fieldset>
-            <legend>Paciente</legend>
-            <input name="correo" type="email" placeholder="Ingrese su correo"><br><br>
+            <legend>Ingresar formulario</legend>
+            <input name="correo" type="email" placeholder="Ingrese su correo" required><br><br>
             <input name="nombre" type="text" placeholder="Ingrese su nombre"><br><br>
-            <input name="contra" type="password" placeholder="******"><br><br>
+            <input name="contra" type="password" placeholder="******" required><br><br>
 
             <button>Guardar</button>
             <input type="reset" value="Limpiar">
         </fieldset>
+
+
+    </form>
+
+    <h1>Formulario de registro</h1>
+    <form action="">
+        <fieldset>
+            <legend>Ingresa todos tus datos</legend>
+                <label for="nombre">Nombre</label>
+                    <input name="nombre" id="nombre" type="text" placeholder="Ingrese su Nombre"><br><br>
+    
+                <label for="apellido">Apellido</label>
+                    <input name="apellido" id="apellido" type="text" placeholder="Ingrese su Apellido"><br><br>
+                
+                <label for="fecha_nac">Fecha</label>
+                    <input name="fecha_nac" id="fecha_nac" type="date"><br><br>
+
+                <label for="nombre">Nombre</label>
+                    <input name="nombre" id="nombre" type="text" placeholder="Ingrese su Nombre"><br><br>
+
+                <label for="nombre">Nombre</label>
+                    <input name="nombre" id="nombre" type="text" placeholder="Ingrese su Nombre"><br><br>
+
+        </fieldset>
+
+
 
 
     </form>
