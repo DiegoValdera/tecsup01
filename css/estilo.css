@@ -1,4 +1,77 @@
 body{
-    font-family: 'Helvetica';
-    background: red;
+    font-family: Helvetica;
+    background: url("../img/pattern-background-desktop.svg") no-repeat;
+    background-size: cover;
+}
+
+.contenedor{
+    width: 450px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+h4{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(12, 12, 151);
+}
+
+.contenedor-texto{
+    padding-left:50px ;
+    padding-right: 50px;
+
+}
+.center{
+    text-align: center;
+    color: rgb(151, 148, 148);
+    font-size: 14px;
+}
+
+.fondo2{
+    background-color: rgba(242, 240, 252, 0.699);
+    margin: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boton1{
+background-color: rgb(56, 3, 248);
+padding-top: 5px;
+padding-bottom: 5px;
+color: #fff;
+border-radius: 5px;
+height: 35px;
+width: 100%;
+border: none;
+box-sizing: 1px 1px 1px 1px grey;
+}
+
+.boton2{
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(106, 116, 151);
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    border: none;
+    box-sizing: 1px 1px 1px 1px grey;
+    
+}
+
+.fondo3{
+    margin: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
 }
