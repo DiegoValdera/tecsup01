@@ -1,16 +1,24 @@
 body{
-    font-family: Helvetica;
+    font-family: 'Gemunu Libre', sans-serif;
     background: url("../img/pattern-background-desktop.svg") no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
 }
 
 .contenedor{
     width: 450px;
-    height: 550px;
+    height: 615px;
     background-color: #fff;
     border-radius: 10px;
     margin-left: 20%;
     margin-right: 20%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
     
 }
 
@@ -20,7 +28,7 @@ body{
 
 
 h4{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     color: rgb(12, 12, 151);
 }
@@ -37,36 +45,35 @@ h4{
 }
 
 .fondo2{
-    background-color: rgba(242, 240, 252, 0.699);
-    margin: 20px;
-    height: 50px;
-    padding: 10px;
-    border-radius: 10px;
+display: flex;
+align-items: center;
+background-color: rgba(242, 240, 252, 0.699);
+justify-content:flex-start;
+margin: 20px;
+height: 50px;
+padding: 10px;
+border-radius: 10px;
 }
 
-.boton1{
-background-color: rgb(56, 3, 248);
-padding-top: 5px;
-padding-bottom: 5px;
-color: #fff;
-border-radius: 5px;
-height: 35px;
-width: 100%;
-border: none;
-box-sizing: 1px 1px 1px 1px grey;
+.fondo2 a{
+    font-size: 12px;
 }
 
-.boton2{
-    background-color: rgb(255, 255, 255);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: rgb(106, 116, 151);
-    border-radius: 5px;
-    height: 35px;
-    width: 100%;
-    border: none;
-    box-sizing: 1px 1px 1px 1px grey;
-    
+.junto{
+    line-height: 1%;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 105px;
+}
+
+.junto h5{
+    color: rgb(1, 1, 187);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.junto p{
+    font-size: 14px;
 }
 
 .fondo3{
@@ -75,3 +82,34 @@ box-sizing: 1px 1px 1px 1px grey;
     padding: 10px;
     border-radius: 10px;
 }
+
+.boton1{
+background-color: #382ae1;
+padding-top: 5px;
+padding-bottom: 5px;
+color: #fff;
+border-radius: 5px;
+height: 40px;
+width: 100%;
+border: none;
+box-sizing: 1px 1px 1px 1px grey;
+cursor: pointer;
+margin-bottom: 20px;
+box-shadow: 1px 1px 11px -2px #383838;
+}
+
+.boton2{
+    background-color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(106, 116, 151);
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    box-sizing: 1px 1px 1px 1px grey;
+    cursor: pointer;
+    box-shadow: 1px 1px 11px -2px #eeeeee;
+    
+}
+
