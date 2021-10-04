@@ -44,3 +44,12 @@ para salir de VIM
 
 //Para ver diferencias entre 02 commits
 git diff <token1> <token2>
+
+// para trabajar remoto con repositorio
+
+git remote -ver
+git branch origin master
+
+luego git add .
+git commit -m "nombre"
+git push origin master
